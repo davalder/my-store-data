@@ -1,7 +1,6 @@
 const express = require('express');
 const passport = require('passport');
 
-const { config } = require('./../config/config');
 const OrderService = require('./../services/order.service');
 
 const router = express.Router();
